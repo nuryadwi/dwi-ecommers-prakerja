@@ -20,10 +20,10 @@ class Navbar extends Component {
                 </ul>
                 <Link to="/cart" className="ms-auto">
                     <ButtonContainer>
-                        <span className="mr-2">
+                        <span className="mr-2 button">
                             <i className="fas fa-cart-plus" />
                         </span>
-                         MY CART
+                         <span className="button">MY CART</span>
                     </ButtonContainer>
                 </Link>
             </NavWrapper>

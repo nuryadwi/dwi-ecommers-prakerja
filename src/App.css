@@ -13,7 +13,7 @@ body{
 }
 
 .text-title{
-  font-family: "Permanent Marker", cursive;
+  font-family: "Poppins", cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -44,4 +44,10 @@ body{
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+.nav-link:hover{
+  background: var(--lightBlue);
+}
+.button{
+  color: var(--mainWhite);
 }
